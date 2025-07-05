@@ -900,7 +900,7 @@ window.addEventListener('DOMContentLoaded', function () {
             xfMusicAudio.remove()
         }
     }
-    const message = '亿思博客'
+    const message = '亿思博客-网页播放器'
     const description = 'https://www.eees.cn/'
 
     const printStyle = [
