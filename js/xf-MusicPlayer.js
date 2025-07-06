@@ -100,12 +100,12 @@ window.addEventListener('DOMContentLoaded', function () {
 
         const xfCssOne = 'xfplayIcon.css'
         const xfCssTow = 'xf-MusicPlayer.css'
-        let xfplayIconCSS = `${xfDomainName}/xf-MusicPlayer/icon/${xfCssOne}`
-        let MusicPlayerCSS = `${xfDomainName}/xf-MusicPlayer/css/${xfCssTow}`
+        let xfplayIconCSS = `${xfDomainName}/icon/${xfCssOne}`
+        let MusicPlayerCSS = `${xfDomainName}/css/${xfCssTow}`
 
         if (location.protocol === 'file:') {
-            xfplayIconCSS = 'https://player.xfyun.club/js/xf-MusicPlayer/icon/xfplayIcon.min.css'
-            MusicPlayerCSS = 'https://player.xfyun.club/js/xf-MusicPlayer/css/xf-MusicPlayer.min.css'
+            xfplayIconCSS = 'https://mplayer.eees.cn/icon/xfplayIcon.min.css'
+            MusicPlayerCSS = 'https://mplayer.eees.cn/css/xf-MusicPlayer.min.css'
             musicApi = 'https://api.xfyun.club'
         }
         
@@ -297,7 +297,7 @@ window.addEventListener('DOMContentLoaded', function () {
             }
 
             const playerMusicItem = (index, music, picture, Title, Author, loadingTime) => {
-                let lis = `<li class="xf-songsItem"data-index="${index}"data-mp3url="${music}"><div class="xf-songListSongPictures"><i class="xf-songIcon iconfont icon-bofang"></i><img data-musicLjz-src="${picture + '?param=200x200'}"src="https://player.xfyun.club/img/playerLoad.gif"alt="songPicture"class="xf-playlistImg"></div><div class="xf-playlistSongInformation"><div class="xf-songTitle"><h5 class="xf-songName">${Title}</h5><p class="xf-authorAndDuration"><sapn class="xf-songAuthor">${Author}</sapn><span class="xf-songLength iconfont icon-shijian">\t${loadingTime}</span></p></div></div></li>`
+                let lis = `<li class="xf-songsItem"data-index="${index}"data-mp3url="${music}"><div class="xf-songListSongPictures"><i class="xf-songIcon iconfont icon-bofang"></i><img data-musicLjz-src="${picture + '?param=200x200'}"src="https://mplayer.eees.cn/images/playerLoad.gif"alt="songPicture"class="xf-playlistImg"></div><div class="xf-playlistSongInformation"><div class="xf-songTitle"><h5 class="xf-songName">${Title}</h5><p class="xf-authorAndDuration"><sapn class="xf-songAuthor">${Author}</sapn><span class="xf-songLength iconfont icon-shijian">\t${loadingTime}</span></p></div></div></li>`
                 characterToElement(lis, listOfSongs)
             }
 
@@ -900,8 +900,8 @@ window.addEventListener('DOMContentLoaded', function () {
             xfMusicAudio.remove()
         }
     }
-    const message = '小枫网络'
-    const description = 'https://www.xfabe.com/'
+    const message = '亿思博客'
+    const description = 'https://www.eees.cn/'
 
     const printStyle = [
         'padding: 5px 10px; border-radius: 5px 0 0 5px; background-color: #8b52ec; font-weight: bold;',
