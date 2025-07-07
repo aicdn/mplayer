@@ -1,0 +1,17 @@
+.yimihua{
+background: #bf74b7;
+    background: -webkit-linear-gradient(to right, #bf74b7, #80b0d8);
+    background: -webkit-gradient(linear, left top, right top, from(#bf74b7), to(#80b0d8));
+    background: -webkit-linear-gradient(left, #bf74b7, #bf74b7);
+    background: -moz- oldlinear-gradient(left, #bf74b7, #bf74b7);
+    background: -o-linear-gradient(left, #bf74b7, #80b0d8);
+    background: linear-gradient(to right, #bf74b7, #80b0d8);
+}
+
+.blues{
+    background: #bf74b7;
+}
+
+.baise{
+    color:#FFFFFF
+}
